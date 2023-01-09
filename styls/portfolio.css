@@ -20,7 +20,7 @@
 }
 #website-small-tittle{
     font-size: 40px;
-    margin-bottom: ;
+    
 }
 .banner-description{
     color: rgb(77, 4, 4);
@@ -91,10 +91,10 @@ main{
 /* about section style */
 .about{
     margin-top: 130px;
-    background: #fcdac1;
+    background: #ffffff;
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: ;
+    text-align: center;
      
 }
 .section-tittle{
@@ -102,10 +102,11 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 
 
 }
+
 .section-discription{
     color: darkslategrey;
     font-size: 18px;
@@ -125,4 +126,44 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: rgb(29, 29, 29);
+}
+ /* what i do style */
+.what-i-do{
+    color: #1a120d;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+.skills-container{
+    display:flex;
+    gap: 25px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 6px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-discription{
+    color: dimgray;
+}
+
+/* A summary of My Resume */
+.resume{
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+
 }
